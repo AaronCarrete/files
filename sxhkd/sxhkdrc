@@ -2,9 +2,18 @@
 # My Hotkeys
 #
 
+# Rofi Utils
+# Launch program
+super + r
+	rofi -show drun -show-icons
+
+# Navigate windows
+super + alt + m 
+	rofi -show window -show-icons
+
 # terminal emulator
 super + Return
-	kitty	
+	xfce4-terminal	
 
 # file manager
 super + e
@@ -26,10 +35,6 @@ super + v
 super + q 
 	qbittorrent
 
-
-# program launcher
-super + r
-	dmenu_run -i -fn "Ubuntu:20"
 
 # make sxhkd reload its configuration files:
 super + Escape
