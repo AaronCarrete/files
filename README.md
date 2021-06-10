@@ -1,6 +1,7 @@
 Este es solo un repositorio que contiene mis archivos de configuración.
 
 Por si te interesa, uso:
+
 	Distro: Arch Linux
 
 	Manejador de Ventanas: bspwm
