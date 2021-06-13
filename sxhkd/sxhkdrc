@@ -2,6 +2,16 @@
 # My Hotkeys
 #
 
+#
+# Screenshoots 
+# Fullscreen
+Print 
+	scrot
+
+# Our preference area
+super + Print
+	scrot -s
+
 # Rofi Utils
 # Launch program
 super + r
@@ -25,7 +35,7 @@ super + alt + s
 
 # Browser
 super + b
-	chromium
+	opera	
 
 # Virt Manager
 super + v
