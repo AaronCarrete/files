@@ -2,7 +2,7 @@
 
 sxhkd &
 $HOME/.config/polybar/launch.sh
-$HOME/styli.sh/styli.sh -n -s "mountains" -w 1366 -h 768
+$HOME/styli.sh/styli.sh -b bg-fill -w 1366 -h 768 -p -d ~/Wallpapers/
 
 bspc monitor -d I II III IV V VI VII
 
@@ -15,8 +15,8 @@ bspc config focus_follows_pointer true
 
 
 
-bspc rule -a Chromium desktop='^2' follow=on
+bspc rule -a opera desktop='^2' 
 bspc rule -a spotify desktop='^3' follow=on
-bspc rule -a telegram-desktop desktop='^4' follow=on
+bspc rule -a telegram-desktop desktop='^4' state=floating follow=on
 bspc rule -a vlc desktop='^5' state=floating follow=on
 bspc rule -a pcmanfm desktop='^6' state=floating follow=on

@@ -25,6 +25,10 @@ super + alt + m
 super + Return
 	xfce4-terminal	
 
+# Telegram
+super + alt + t
+	telegram-desktop
+
 # file manager
 super + e
 	pcmanfm
